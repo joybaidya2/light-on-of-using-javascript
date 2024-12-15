@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1 class="text-center p-10 text-xl font-semibold italic">Here is the one light when you click light on button then light on if you click light off button then your light is off..</h1>
+
+    <div class="flex items-center mt-10 max-w-xl mx-auto gap-4">
+       <div>
+        <button class="border bg-green-500 text-white px-4 py-1 rounded-md font-medium" type="submit" onclick="document.getElementById('myImage').src='https://lam-programming.weebly.com/uploads/2/3/3/2/23323570/pic_bulbon.gif'">Turn on the light</button>
+       </div>
+
+        <img id="myImage" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="Light image.">
+
+        <div>  
+        <button  class="border bg-red-500 text-white px-5 py-1 rounded-md font-medium" onclick="document.getElementById('myImage').src='https://www.w3schools.com/js/pic_bulboff.gif'">Trun off the light</button>
+        </div>
+    </div>
+
+
+</body>
+</html>
